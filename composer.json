@@ -1,0 +1,13 @@
+{
+    "name": "hexlet/code",
+    "authors": [
+        {
+            "name": "ShagalovNick",
+            "email": "sekunda-61@yandex.ru"
+        }
+    ],
+    "bin": [
+        "bin/brain-games"
+      ],
+    "require": {}
+}
