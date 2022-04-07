@@ -1,8 +1,11 @@
 name: brain-games-check
 on: push
 jobs:
-  my-job:
+  build:
+
+    # The type of machine to run the job on
     runs-on: ubuntu-latest
     steps:
-      - name: my-step
-        run: composer exec --verbose phpcs -- --standard=PSR12 src bin
+      - name: Run linter
+        # Run Linter
+        run: make lint
