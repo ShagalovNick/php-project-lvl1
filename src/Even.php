@@ -18,7 +18,8 @@ function isEven($name)
             $correct += 1;
             
         } else {
-            line("'{$answer}' is wrong answer ;(. Correct answer was 'no'");
+            ($a % 2 !== 0) ? $rightanswer = 'no' : $rightanswer = 'yes';
+            line("'{$answer}' is wrong answer ;(. Correct answer was '{$rightanswer}'");
             line("Let's try again, Bill!");
             return;
         }
