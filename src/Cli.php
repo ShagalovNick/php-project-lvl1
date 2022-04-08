@@ -15,7 +15,7 @@ function hello()
     line('Welcome to the Brain Games!');
     echo "May I have your name? ";
     $name = str_replace("\n", "", fgets(STDIN));
-    echo "Hello, {$userName}!\n";
+    echo "Hello, {$name}!\n";
     //$name = prompt('May I have your name?');
     //line("Hello, %s!", $name);
     return $name;
