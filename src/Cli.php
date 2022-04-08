@@ -10,7 +10,7 @@ function hi(): void
     line('Welcome to the Brain Games!');
 }
 
-function hello(): void
+function hello()
 {
     line('Welcome to the Brain Games');
     $name = prompt('May I have your name?');
