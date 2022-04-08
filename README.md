@@ -3,3 +3,5 @@
 ![Actions Status](https://github.com/ShagalovNick/php-project-lvl1/actions/workflows/brain-games-check.yml/badge.svg)
 
 https://asciinema.org/a/qgNjf35NBPN2pdtegLTv0oeJ7
+
+https://asciinema.org/a/llISiLbZkrXvh2DkMFEgTQgoh
