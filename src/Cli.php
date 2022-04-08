@@ -29,7 +29,9 @@ function ruleAsk($rule)
 function askQuestion($a)
 {
     line("Question: {$a}");
-    return prompt('Your answer');
+    echo "Your answer ";
+    return str_replace("\n", "", fgets(STDIN));
+    //return prompt('Your answer');
 }
 
 function sayCorrect()
