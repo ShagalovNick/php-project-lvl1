@@ -29,7 +29,7 @@ function ruleAsk($rule)
 function askQuestion($a)
 {
     line("Question: {$a}");
-    echo "Your answer ";
+    echo "Your answer: ";
     return str_replace("\n", "", fgets(STDIN));
     //return prompt('Your answer');
 }
@@ -41,7 +41,7 @@ function sayCorrect()
 
 function sayWrong($answer, $rightanswer, $name)
 {
-    line("'{$answer}' is wrong answer ;(. Correct answer was '{$rightanswer}'");
+    line("'{$answer}' is wrong answer ;(. Correct answer was '{$rightanswer}'.");
     line("Let's try again, {$name}!");
 }
 

@@ -7,7 +7,7 @@ use Brain\Games\Engine;
 
 function isPrime($name)
 {
-    $rule = '"yes" if given number is prime. Otherwise answer "no"';
+    $rule = 'Answer "yes" if given number is prime. Otherwise answer "no".';
     $funcGetTask = "\Brain\Games\Prime\getTask";
     Engine\runGame($funcGetTask, $rule, $name);
 }
