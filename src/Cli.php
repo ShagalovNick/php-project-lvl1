@@ -5,6 +5,11 @@ namespace Brain\Games\Cli;
 use function cli\line;
 use function cli\prompt;
 
+function hi()
+{
+    line('Welcome to the Brain Game!');
+}
+
 function hello()
 {
     line('Welcome to the Brain Game!');
