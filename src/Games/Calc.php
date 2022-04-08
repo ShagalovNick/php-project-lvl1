@@ -22,8 +22,7 @@ function getTask()
     if ($i === 0) {
         $task = "{$a} + {$b}";
         $rightAnswer = (string)($a + $b);
-    }
-    elseif ($i === 1) {
+    } elseif ($i === 1) {
         $task = "{$a} - {$b}";
         $rightAnswer = (string)($a - $b);
     } else {

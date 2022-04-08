@@ -7,7 +7,6 @@ namespace Brain\Games\Engine;
 use Brain\Games\Cli;
 use Brain\Games\Even;
 
-
 function isCorrect($rightAnswer, $answer, $correct, $uncorrect, $name)
 {
     if ($answer === $rightAnswer) {

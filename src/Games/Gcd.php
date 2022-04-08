@@ -24,6 +24,6 @@ function getTask()
             }
         }
     }
-    $task = "{$a}  {$b}";    
+    $task = "{$a}  {$b}";
     return [$task, $rightAnswer];
 }

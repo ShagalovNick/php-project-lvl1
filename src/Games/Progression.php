@@ -13,7 +13,7 @@ function getProgression($name)
 }
 
 function getTask()
-{    
+{
     // get progression of 6 elements
     $arrProgression = [];
     $indexProgression = rand(1, 6);

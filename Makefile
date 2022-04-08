@@ -13,6 +13,9 @@ brain-progression:
 brain-gcd:
 	./bin/brain-gcd
 
+brain-prime:
+	./bin/brain-prime
+
 install:
 	composer install
 
