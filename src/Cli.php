@@ -13,9 +13,9 @@ function hello()
     return $name;
 }
 
-function ruleLine ()
+function ruleAsk($rule)
 {
-    line('Answer "yes" if the number is even, otherwise answer "no".');
+    line("{$rule}");
 }
 
 function askQuestion($a)
