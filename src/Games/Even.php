@@ -8,9 +8,8 @@ use Brain\Games\Engine;
 function isEven($name)
 {
     $rule = 'Answer "yes" if the number is even, otherwise answer "no".';
-    $funcIsCorrect = "\Brain\Games\Even\isCorrect";
     $funcGetTask = "\Brain\Games\Even\getTask";
-    Engine\runGame($funcIsCorrect, $funcGetTask, $rule, $name);
+    Engine\runGame($funcGetTask, $rule, $name);
 }
 
 function getTask()

@@ -20,7 +20,7 @@ function isCorrect($rightAnswer, $answer, $correct, $uncorrect, $name)
     return [$correct, $uncorrect];
 }
 
-function runGame($funcIsCorrect, $funcGetTask, $rule, $name)
+function runGame($funcGetTask, $rule, $name)
 {
     $correct = 0;
     $uncorrect = 0;

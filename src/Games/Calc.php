@@ -8,9 +8,8 @@ use Brain\Games\Engine;
 function Calculate($name)
 {
     $rule = 'What is the result of the expression?';
-    $funcIsCorrect = "\Brain\Games\Calc\isCorrect";
     $funcGetTask = "\Brain\Games\Calc\getTask";
-    Engine\runGame($funcIsCorrect, $funcGetTask, $rule, $name);
+    Engine\runGame($funcGetTask, $rule, $name);
 }
 
 function getTask()
