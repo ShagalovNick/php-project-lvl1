@@ -22,5 +22,3 @@ function getTask()
     }
         return [$task, $rightAnswer];
 }
-
-
