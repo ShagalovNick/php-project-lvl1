@@ -12,9 +12,12 @@ function hi(): void
 
 function hello()
 {
-    line('Welcome to the Brain Games');
-    $name = prompt('May I have your name?');
-    line("Hello, %s!", $name);
+    line('Welcome to the Brain Games!');
+    echo "May I have your name? ";
+    $name = str_replace("\n", "", fgets(STDIN));
+    echo "Hello, {$userName}!\n";
+    //$name = prompt('May I have your name?');
+    //line("Hello, %s!", $name);
     return $name;
 }
 
