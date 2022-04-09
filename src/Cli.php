@@ -11,6 +11,8 @@ use function cli\prompt;
 // good luck
 
 
+
+
 function hello()
 {
     line('Welcome to the Brain Games!');
