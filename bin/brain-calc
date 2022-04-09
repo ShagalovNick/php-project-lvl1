@@ -11,5 +11,4 @@ if (file_exists($autoloadPath1)) {
 use Brain\Games\Cli;
 use Brain\Games\Calc;
 
-$name = Cli\hello();
 Calc\Calculate($name);

@@ -6,14 +6,17 @@ namespace Brain\Games\Engine;
 
 use Brain\Games\Cli;
 use Brain\Games\Even;
+use function cli\line;
+use function cli\prompt;
 
 function isCorrect($rightAnswer, $answer, $correct, $uncorrect, $name)
 {
     if ($answer === $rightAnswer) {
-        Cli\sayCorrect();
+        line('Correct!');
         $correct += 1;
     } else {
-        Cli\sayWrong($answer, $rightAnswer, $name);
+        line("'{$answer}' is wrong answer ;(. Correct answer was '{$rightanswer}'.");
+        line("Let's try again, {$name}!");
         $uncorrect += 1;
     }
     return [$correct, $uncorrect];
@@ -23,13 +26,14 @@ function runGame($funcGetTask, $rule, $name)
 {
     $correct = 0;
     $uncorrect = 0;
-    Cli\ruleAsk($rule);
+    line("{$rule}");
     while ($correct < 3 && $uncorrect < 1) {
         [$task, $rightAnswer] = $funcGetTask();
-        $answer = Cli\askQuestion($task);
+        line("Question: {$task}");
+        $answer = prompt('Your answer');
         [$correct, $uncorrect] = isCorrect($rightAnswer, $answer, $correct, $uncorrect, $name);
     }
     if ($correct === 3) {
-        Cli\sayGrac($name);
+        line("Congratulations, {$name}!");
     }
 }
