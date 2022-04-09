@@ -9,8 +9,8 @@ function isEven()
 {
     $rule = 'Answer "yes" if the number is even, otherwise answer "no".';
     $funcGetTask = "\Brain\Games\Even\getTask";
-    $name = Cli\hello();
-    Engine\runGame($funcGetTask, $rule, $name);
+    // $name = Cli\hello();
+    Engine\runGame($funcGetTask, $rule);
 }
 
 function getTask()

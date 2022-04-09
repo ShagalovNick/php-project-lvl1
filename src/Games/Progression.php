@@ -9,8 +9,8 @@ function getProgression()
 {
     $rule = 'What number is missing in the progression?';
     $funcGetTask = "\Brain\Games\Progression\getTask";
-    $name = Cli\hello();
-    Engine\runGame($funcGetTask, $rule, $name);
+    // $name = Cli\hello();
+    Engine\runGame($funcGetTask, $rule);
 }
 
 function getTask()

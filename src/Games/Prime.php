@@ -9,8 +9,8 @@ function isPrime()
 {
     $rule = 'Answer "yes" if given number is prime. Otherwise answer "no".';
     $funcGetTask = "\Brain\Games\Prime\getTask";
-    $name = Cli\hello();
-    Engine\runGame($funcGetTask, $rule, $name);
+    // $name = Cli\hello();
+    Engine\runGame($funcGetTask, $rule);
 }
 
 function getTask()

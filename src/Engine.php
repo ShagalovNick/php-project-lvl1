@@ -23,8 +23,11 @@ function isCorrect($rightAnswer, $answer, $correct, $uncorrect, $name)
     return [$correct, $uncorrect];
 }
 
-function runGame($funcGetTask, $rule, $name)
+function runGame($funcGetTask, $rule)
 {
+    line('Welcome to the Brain Games!');
+    $name = prompt('May I have your name?');
+    line("Hello, %s!", $name);
     $correct = 0;
     $uncorrect = 0;
     line("{$rule}");

@@ -9,8 +9,8 @@ function getGcd()
 {
     $rule = 'Find the greatest common divisor of given numbers.';
     $funcGetTask = "\Brain\Games\Gcd\getTask";
-    $name = Cli\hello();
-    Engine\runGame($funcGetTask, $rule, $name);
+    // $name = Cli\hello();
+    Engine\runGame($funcGetTask, $rule);
 }
 
 function getTask()
