@@ -15,6 +15,7 @@ function getGcd()
 
 function getTask()
 {
+    $rightAnswer = 1;
     $a = rand(1, 12);
     $b = rand(1, 48);
     $c = min($a, $b);

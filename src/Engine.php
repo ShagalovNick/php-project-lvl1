@@ -8,7 +8,7 @@ use Brain\Games\Even;
 use function cli\line;
 use function cli\prompt;
 
-function isCorrect($rightAnswer, $answer, $correct, $uncorrect, $name)
+function isCorrect(string $rightAnswer, string $answer, int $correct, int $uncorrect, string $name)
 {
     if ($answer === $rightAnswer) {
         line('Correct!');
@@ -21,7 +21,7 @@ function isCorrect($rightAnswer, $answer, $correct, $uncorrect, $name)
     return [$correct, $uncorrect];
 }
 
-function runGame($funcGetTask, $rule)
+function runGame(string $funcGetTask, string $rule)
 {
     line('Welcome to the Brain Games!');
     $name = prompt('May I have your name?');
