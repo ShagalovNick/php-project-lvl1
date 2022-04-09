@@ -14,14 +14,14 @@ function isCorrect(string $rightAnswer, string $answer, int $correct, int $uncor
         line('Correct!');
         $correct += 1;
     } else {
-        line("'{$answer}' is wrong answer ;(. Correct answer was '{$rightanswer}'.");
+        line("'{$answer}' is wrong answer ;(. Correct answer was '{$rightAnswer}'.");
         line("Let's try again, {$name}!");
         $uncorrect += 1;
     }
     return [$correct, $uncorrect];
 }
 
-function runGame(string $funcGetTask, string $rule)
+function runGame(callable $funcGetTask, string $rule)
 {
     line('Welcome to the Brain Games!');
     $name = prompt('May I have your name?');
