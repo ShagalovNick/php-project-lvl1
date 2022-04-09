@@ -5,7 +5,7 @@ namespace Brain\Games\Gcd;
 use Brain\Games\Cli;
 use Brain\Games\Engine;
 
-function getGcd($name)
+function getGcd()
 {
     $rule = 'Find the greatest common divisor of given numbers.';
     $funcGetTask = "\Brain\Games\Gcd\getTask";

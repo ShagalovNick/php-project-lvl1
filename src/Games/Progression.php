@@ -5,7 +5,7 @@ namespace Brain\Games\Progression;
 use Brain\Games\Cli;
 use Brain\Games\Engine;
 
-function getProgression($name)
+function getProgression()
 {
     $rule = 'What number is missing in the progression?';
     $funcGetTask = "\Brain\Games\Progression\getTask";

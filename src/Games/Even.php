@@ -5,7 +5,7 @@ namespace Brain\Games\Even;
 use Brain\Games\Cli;
 use Brain\Games\Engine;
 
-function isEven($name)
+function isEven()
 {
     $rule = 'Answer "yes" if the number is even, otherwise answer "no".';
     $funcGetTask = "\Brain\Games\Even\getTask";

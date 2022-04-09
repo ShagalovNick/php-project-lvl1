@@ -5,7 +5,7 @@ namespace Brain\Games\Prime;
 use Brain\Games\Cli;
 use Brain\Games\Engine;
 
-function isPrime($name)
+function isPrime()
 {
     $rule = 'Answer "yes" if given number is prime. Otherwise answer "no".';
     $funcGetTask = "\Brain\Games\Prime\getTask";

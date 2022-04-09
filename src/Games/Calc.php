@@ -5,7 +5,7 @@ namespace Brain\Games\Calc;
 use Brain\Games\Cli;
 use Brain\Games\Engine;
 
-function Calculate($name)
+function Calculate()
 {
     $rule = 'What is the result of the expression?';
     $funcGetTask = "\Brain\Games\Calc\getTask";
