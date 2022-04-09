@@ -11,4 +11,4 @@ if (file_exists($autoloadPath1)) {
 use Brain\Games\Cli;
 use Brain\Games\Gcd;
 
-Gcd\getGcd($name);
+Gcd\getGcd();
