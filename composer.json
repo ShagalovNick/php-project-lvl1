@@ -9,9 +9,6 @@
     "description": "hexlet brain-games",
     "license": "MIT",
     "autoload": {
-        "psr-4": {
-          "Brain\\Games\\": "src"
-        },
         "files": [
             "src/Cli.php",
             "src/Games/Even.php",

@@ -2,8 +2,6 @@
 
 namespace Brain\Games\Engine;
 
-// require_once __DIR__ . '/../vendor/autoload.php';
-
 use Brain\Games\Cli;
 use Brain\Games\Even;
 
