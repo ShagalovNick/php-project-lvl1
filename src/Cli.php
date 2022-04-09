@@ -7,6 +7,8 @@ use function cli\prompt;
 
 // It's hello
 // have a nice day!
+// Nice meet you
+// good luck
 function hello()
 {
     line('Welcome to the Brain Games!');
