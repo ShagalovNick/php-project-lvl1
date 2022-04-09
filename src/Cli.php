@@ -13,6 +13,14 @@ use function cli\prompt;
 
 
 
+
+
+
+
+
+
+
+
 function hello()
 {
     line('Welcome to the Brain Games!');
